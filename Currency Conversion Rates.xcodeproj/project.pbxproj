@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1C2119F424D33E7C0067DF7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2119F324D33E7C0067DF7D /* AppDelegate.swift */; };
 		1C2119F624D33E7C0067DF7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2119F524D33E7C0067DF7D /* SceneDelegate.swift */; };
-		1C2119F824D33E7C0067DF7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2119F724D33E7C0067DF7D /* ViewController.swift */; };
+		1C2119F824D33E7C0067DF7D /* CurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2119F724D33E7C0067DF7D /* CurrenciesViewController.swift */; };
 		1C2119FB24D33E7C0067DF7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2119F924D33E7C0067DF7D /* Main.storyboard */; };
 		1C2119FD24D33E7D0067DF7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C2119FC24D33E7D0067DF7D /* Assets.xcassets */; };
 		1C211A0024D33E7D0067DF7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C2119FE24D33E7D0067DF7D /* LaunchScreen.storyboard */; };
+		1C211A0824D33F290067DF7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C211A0724D33F290067DF7D /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1C2119F024D33E7C0067DF7D /* Currency Conversion Rates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency Conversion Rates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C2119F324D33E7C0067DF7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C2119F524D33E7C0067DF7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1C2119F724D33E7C0067DF7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C2119F724D33E7C0067DF7D /* CurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewController.swift; sourceTree = "<group>"; };
 		1C2119FA24D33E7C0067DF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C2119FC24D33E7D0067DF7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C2119FF24D33E7D0067DF7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C211A0124D33E7D0067DF7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C211A0724D33F290067DF7D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				1C2119F324D33E7C0067DF7D /* AppDelegate.swift */,
 				1C2119F524D33E7C0067DF7D /* SceneDelegate.swift */,
-				1C2119F724D33E7C0067DF7D /* ViewController.swift */,
+				1C2119F724D33E7C0067DF7D /* CurrenciesViewController.swift */,
 				1C2119F924D33E7C0067DF7D /* Main.storyboard */,
 				1C2119FC24D33E7D0067DF7D /* Assets.xcassets */,
 				1C2119FE24D33E7D0067DF7D /* LaunchScreen.storyboard */,
 				1C211A0124D33E7D0067DF7D /* Info.plist */,
+				1C211A0724D33F290067DF7D /* SwiftyJSON.swift */,
 			);
 			path = "Currency Conversion Rates";
 			sourceTree = "<group>";
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C2119F824D33E7C0067DF7D /* ViewController.swift in Sources */,
+				1C2119F824D33E7C0067DF7D /* CurrenciesViewController.swift in Sources */,
 				1C2119F424D33E7C0067DF7D /* AppDelegate.swift in Sources */,
 				1C2119F624D33E7C0067DF7D /* SceneDelegate.swift in Sources */,
+				1C211A0824D33F290067DF7D /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
