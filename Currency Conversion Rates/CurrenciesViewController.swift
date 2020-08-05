@@ -9,23 +9,13 @@
 import UIKit
 
 class CurrenciesViewController: UITableViewController {
-    let apiKey = "aea1871b1a715caf23bb2be2"
+    var json = JSON()
     var currencies = [[String: String]]()
     var names = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let query = "https://v6.exchangerate-api.com/v6/\(apiKey)/latest/USD"
-        self.title = "Current Conversion Rates"
-        if let url = URL(string: query) {
-            if let data = try? Data(contentsOf: url) {
-                let json = try! JSON(data: data)
-                parse(json: json)
-                return
-                
-            }
-        }
-        loadError()
+        parse(json: json)
     }
     
     func parse(json: JSON) {
