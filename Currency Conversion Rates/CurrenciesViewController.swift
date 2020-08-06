@@ -41,6 +41,20 @@ class CurrenciesViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let dvc = segue.destination as! FinalViewController
+        let index = tableView.indexPathForSelectedRow?.row
+        dvc.foreignCurrencyName = names[index!]
+        for currency in currencies{
+            if currency["name"] == names[index!]{
+                let value = currency["rate"]
+                dvc.foreignCurrencyUSDValue = value!
+            }
+        }
+        
+        
+    }
+    
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return currencies.count
@@ -57,6 +71,8 @@ class CurrenciesViewController: UITableViewController {
             }
         }
         return cell
+        
+        
     }
     
 }

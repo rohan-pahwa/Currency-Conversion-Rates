@@ -9,6 +9,8 @@
 import UIKit
 
 class TitleViewController: UIViewController {
+    @IBOutlet weak var updateInfo1: UILabel!
+    @IBOutlet weak var updateInfo2: UILabel!
     let apiKey = "6a3262a74cfa77c0d7508de5"
     var json = JSON()
     override func viewDidLoad() {
@@ -19,6 +21,8 @@ class TitleViewController: UIViewController {
             if let data = try? Data(contentsOf: url) {
                 let jsn = try! JSON(data: data)
                 json = jsn
+                updateInfo1.text = "Last Update - \(json["time_last_update_utc"])"
+                updateInfo2.text = "Next Update - \(json["time_next_update_utc"])"
                 return
                 
             }

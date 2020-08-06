@@ -16,6 +16,7 @@
 		1C211A0824D33F290067DF7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C211A0724D33F290067DF7D /* SwiftyJSON.swift */; };
 		1C7669D724DB043C00601A6E /* APIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7669D624DB043C00601A6E /* APIViewController.swift */; };
 		1C7669D924DB04AC00601A6E /* TitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7669D824DB04AC00601A6E /* TitleViewController.swift */; };
+		1C7669DB24DC541400601A6E /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7669DA24DC541400601A6E /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1C211A0724D33F290067DF7D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		1C7669D624DB043C00601A6E /* APIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewController.swift; sourceTree = "<group>"; };
 		1C7669D824DB04AC00601A6E /* TitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewController.swift; sourceTree = "<group>"; };
+		1C7669DA24DC541400601A6E /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,10 @@
 			children = (
 				1C2119F324D33E7C0067DF7D /* AppDelegate.swift */,
 				1C2119F524D33E7C0067DF7D /* SceneDelegate.swift */,
-				1C2119F724D33E7C0067DF7D /* CurrenciesViewController.swift */,
 				1C2119F924D33E7C0067DF7D /* Main.storyboard */,
 				1C7669D824DB04AC00601A6E /* TitleViewController.swift */,
+				1C2119F724D33E7C0067DF7D /* CurrenciesViewController.swift */,
+				1C7669DA24DC541400601A6E /* FinalViewController.swift */,
 				1C7669D624DB043C00601A6E /* APIViewController.swift */,
 				1C2119FC24D33E7D0067DF7D /* Assets.xcassets */,
 				1C2119FE24D33E7D0067DF7D /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C2119F824D33E7C0067DF7D /* CurrenciesViewController.swift in Sources */,
+				1C7669DB24DC541400601A6E /* FinalViewController.swift in Sources */,
 				1C2119F424D33E7C0067DF7D /* AppDelegate.swift in Sources */,
 				1C7669D724DB043C00601A6E /* APIViewController.swift in Sources */,
 				1C2119F624D33E7C0067DF7D /* SceneDelegate.swift in Sources */,
